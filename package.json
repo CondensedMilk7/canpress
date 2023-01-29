@@ -1,0 +1,27 @@
+{
+  "name": "canpress",
+  "version": "0.0.0",
+  "description": "R-markdown style academic text formatting from markdown to HTML, featuring minimal configurable templates and live preview.",
+  "main": "src/index.js",
+  "bin": "src/cli.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "node ./src/index.js",
+    "build:doc": "node ./build/doc.js"
+  },
+  "author": "Pridon Tetradze <pridontetradze@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@arothuis/markdown-it-biblatex": "^0.4.0",
+    "front-matter": "^4.0.2",
+    "live-server": "^1.2.2",
+    "markdown-it": "^13.0.1",
+    "markdown-it-anchor": "^8.6.6",
+    "markdown-it-katex": "^2.0.3",
+    "markdown-it-table-of-contents": "^0.6.0"
+  },
+  "devDependencies": {
+    "jasmine": "^4.5.0",
+    "markdown-it-highlightjs": "^4.0.1"
+  }
+}
