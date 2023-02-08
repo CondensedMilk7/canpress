@@ -1,7 +1,7 @@
 {
   "name": "canpress",
   "version": "0.0.0",
-  "description": "R-markdown style academic text formatting from markdown to HTML, featuring minimal configurable templates and live preview.",
+  "description": "Everything you need for markdown-driven academic web press, condensed in a single can.",
   "main": "src/index.js",
   "bin": "src/cli.js",
   "scripts": {
