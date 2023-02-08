@@ -49,6 +49,7 @@ if (args.includes("-b")) {
 
 if (args.includes("-t")) {
   templatePath = args[args.indexOf("-t") + 1];
+  defaultTemplate = false;
   if (!templatePath.endsWith(".html")) {
     panic("Invalid template file!");
   }

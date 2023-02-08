@@ -63,6 +63,7 @@ This is not a stabdalone library, but rather a combination of these preconfigure
 - Documentation on library usage
 - Make it possible to link external HTML and CSS to templates (path resolution problem)
 - Fix occasional infinite refresh loop on live server.
+- Use configuration JSON file.
 
 ### Library
 
