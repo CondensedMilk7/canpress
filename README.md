@@ -15,7 +15,7 @@ It is recommended to use it as a dev dependency in your project, as it has some 
 npm i -D @condensedmilk/canpress
 ```
 
-For CLI usage on daily basis, it can be installed globally, although make sure you know whate you are doing.
+For CLI usage on daily basis, it can be installed globally, although make sure you know what you are doing.
 
 ```
 npm i -g @condensedmilk/canpress
