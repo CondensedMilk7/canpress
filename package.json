@@ -1,5 +1,17 @@
 {
   "name": "canpress",
+  "keywords": [
+    "markdown-it",
+    "markdown",
+    "academic",
+    "press",
+    "bibliography",
+    "citation",
+    "latex",
+    "maths",
+    "katex",
+    "r-markdown"
+  ],
   "version": "0.0.0",
   "description": "Everything you need for markdown-driven academic web press, condensed in a single can.",
   "main": "src/index.js",
