@@ -12,13 +12,13 @@ This is a work in progress.
 It is recommended to use it as a dev dependency in your project, as it has some vulnerabilities.
 
 ```
-npm i -D @condensedmilk/canpress
+npm i -D canpress
 ```
 
 For CLI usage on daily basis, it can be installed globally, although make sure you know what you are doing.
 
 ```
-npm i -g @condensedmilk/canpress
+npm i -g canpress
 ```
 
 # CLI Usage
