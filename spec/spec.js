@@ -129,7 +129,7 @@ describe("canpress", function () {
     const canpress = new CanPress({
       bibPath: fixture("bibliography.bib"),
       mdBiblatexConfig: {
-        bibliographyTitle: "References",
+        bibliographyTitle: '<h2 class="bibliography-title">References</h2>',
         bibliographyMark: "[references]",
       },
     });
