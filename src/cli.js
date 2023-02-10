@@ -2,7 +2,7 @@
 
 const path = require("path");
 const fs = require("fs");
-const liveServer = require("live-server");
+const liveServer = require("dead-server");
 const CanPress = require("./index");
 
 const OUTPUT_PATH = __dirname;
