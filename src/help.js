@@ -3,7 +3,7 @@ module.exports = `USAGE
 
 FLAGS
     -o <path/to/file.html>
-        Output rendered HTML to given path defaults to input file name.
+        Output rendered HTML to given path. Defaults to the input file name.
 
     -b <path/to/bibliography.bib>
         Bibliography file path. Defaults to 'bibliography.bib' in working directory.
@@ -13,11 +13,11 @@ FLAGS
         Custom template file path. The Built-in template is used by default.
     
     -nt
-        No template. Produces just the HTML which is supposed to by inside the document body.
+        No template. Produces just the HTML which is supposed to be inside the document body.
 
     -l
         Live server with preview in the browser. Refreshes when changes are made to markdown file.
 
     -p <port_number>
-        Custom port number. 8080 by default.
+        Custom port number for the live server. 8080 by default.
 `;
