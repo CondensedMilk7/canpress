@@ -59,7 +59,7 @@ links to available functions.
 ## Basic Usage
 
 ```js
-const CanPress = require("@condensedmilk/canpress");
+const CanPress = require("canpress");
 
 // Instantiate canpress with configuration
 const canpress = new CanPress({
