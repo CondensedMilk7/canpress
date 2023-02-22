@@ -28,6 +28,9 @@ USAGE
     canpress <input_file.md> <flags>
 
 FLAGS
+    -i <path/to/input.md>
+        Input file path. This flag is required.
+
     -o <path/to/file.html>
         Output rendered HTML to given path. Defaults to the input file name.
 

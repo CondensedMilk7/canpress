@@ -24,11 +24,11 @@ if (args.includes("-h")) {
   return;
 }
 
-if (args[2]) {
-  inputPath = args[2];
+if (args.includes("-i")) {
+  inputPath = args[args.indexOf("-i") + 1];
   console.log("Reading file", inputPath);
 } else {
-  panic("Must provide input file as the first argument!");
+  panic("Must provide an input file with -i flag!");
 }
 
 if (args.includes("-o")) {
@@ -77,7 +77,7 @@ if (args.includes("-l")) {
     // mount: [["/components", "./node_modules"]], // Mount a directory to a route.
     logLevel: 2, // 0 = errors only, 1 = some, 2 = lots
     middleware: [
-      function (req, res, next) {
+      function(req, res, next) {
         renderAndWrite();
         next();
       },
